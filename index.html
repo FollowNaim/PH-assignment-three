@@ -104,7 +104,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow relative -left-40 space-y-3"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow relative right-0 space-y-3"
               >
                 <li class="font-semibold"><a href="#">Home</a></li>
                 <li class="text-gray-500"><a href="#">Services</a></li>
@@ -139,13 +139,13 @@
         >
           <img class="md:w-2/4" src="./assets/banner.png" alt="" />
           <h1
-            class="text-2xl md:text-4xl font-extrabold text-center leading-tight"
+            class="text-2xl md:text-4xl font-extrabold text-center leading-10"
           >
             A barn house of this design has a <br />
             striking appearance
           </h1>
           <button
-            class="bg-accent/50 px-4 py-2 md:px-6 md:py-3 rounded-3xl font-bold md:mt-4"
+            class="bg-accent/50 px-4 py-2 md:px-6 md:py-3 rounded-3xl font-bold md:mt-4 w-full sm:w-fit"
           >
             View Details
             <i
@@ -163,15 +163,19 @@
           <div
             class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center justify-items-center"
           >
-            <div class="flex flex-col gap-6">
-              <div><img src="./assets/Vector.png" alt="" /></div>
+            <div
+              class="flex flex-col gap-6 justify-center items-center md:justify-start md:items-start"
+            >
+              <div class="hidden lg:flex">
+                <img src="./assets/Vector.png" alt="" />
+              </div>
               <h4
                 class="bg-white rounded-3xl w-fit px-5 py-2 font-semibold flex gap-2 justify-center items-center"
               >
                 <span><i class="fa-solid fa-arrow-right-long"></i></span
                 ><span> About Us </span>
               </h4>
-              <div class="flex flex-col gap-5">
+              <div class="flex flex-col gap-5 text-center md:text-left">
                 <h2 class="font-black leading-tight text-2xl md:text-3xl">
                   We design thoughtful,<br />
                   liveable spaces
@@ -448,6 +452,337 @@
           <!-- </div> -->
         </div>
       </section>
+      <!-- Before and after -->
+      <section>
+        <div class="container mx-auto">
+          <div
+            class="flex flex-col gap-4 justify-center items-center text-center"
+          >
+            <p class="bg-accent/20 font-bold rounded-3xl px-6 py-2">
+              <span><i class="fa-solid fa-arrow-right-long mr-3"></i></span
+              >Before and After
+            </p>
+            <h2 class="text-2xl md:text-4xl font-extrabold">
+              Unveiling the Art of Transformation: <br />
+              See Creativity in Action!
+            </h2>
+            <p class="font-medium text-gray-600 md:w-3/4 mx-auto">
+              Experience the transformation from old to new, where creativity
+              meets craftsmanship. See how we turn original spaces into modern
+              masterpieces.
+            </p>
+          </div>
+          <div class="diff aspect-[16/9] mt-12">
+            <div class="diff-resizer w-40 md:w-96"></div>
+            <div class="diff-item-1">
+              <img
+                alt="daisy"
+                src="https://themetechmount.com/wordpress/inoterior/wp-content/uploads/2024/08/after-img-one.jpg"
+              />
+            </div>
+            <div class="diff-item-2">
+              <img
+                alt="daisy"
+                src="https://themetechmount.com/wordpress/inoterior/wp-content/uploads/2024/08/before-img-one.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Just few steps -->
+      <section
+        class="bg-white relative before:absolute before:inset-0 before:w-2/3 before:left-1/2 before:top-1/2 before:-translate-y-1/2 before:-translate-x-1/2 before:bg-gradient-to-tl from-accent/10 via-lime-300/20 to-purple-400/30 before:blur-3xl before:h-full"
+      >
+        <div class="container mx-auto px-4 py-10 my-20">
+          <div class="flex flex-col lg:flex-row gap-4">
+            <div class="lg:sticky top-0 lg:h-screen flex items-center">
+              <div class="flex flex-col gap-4 justify-start items-start">
+                <p class="bg-accent/20 font-bold rounded-3xl px-6 py-2">
+                  <span><i class="fa-solid fa-user-gear mr-3"></i></span>How we
+                  work
+                </p>
+                <h2 class="text-2xl md:text-4xl font-extrabold">
+                  Just
+                  <span
+                    class="bg-gradient-to-r from-accent to-green-700 text-transparent bg-clip-text"
+                    >a few steps</span
+                  >
+                  to get <br />
+                  your dream House
+                </h2>
+                <p class="font-medium text-gray-600 md:w-3/4 text-left">
+                  Experience the transformation from old to new, where
+                  creativity meets craftsmanship. See how we turn original
+                  spaces into modern masterpieces.
+                </p>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="mt-10 mb-40">
+              <!-- Card 1 -->
+              <div class="card bg-slate-500/10 backdrop-blur-xl sticky top-6">
+                <div class="absolute top-0 right-0 w-12">
+                  <img src="./assets/bookmark.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <div class="flex lg:gap-6">
+                    <div>
+                      <h3
+                        class="hidden lg:block text-3xl font-extrabold bg-gradient-to-br from-blue-300 to-blue-600 bg-clip-text text-transparent"
+                      >
+                        01.
+                      </h3>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                      <div>
+                        <h3 class="card-title font-bold text-3xl">
+                          Initial Consultation
+                        </h3>
+                        <p class="text-gray-500 font-medium my-4">
+                          Connect with us to discuss your vision, needs, and
+                          preferences. We’ll review your ideas and provide
+                          insights on how we can bring your dream barn house to
+                          life.
+                        </p>
+                      </div>
+                      <div class="">
+                        <ul class="flex flex-col gap-3">
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Personalized Design Discussion
+                            </p>
+                          </li>
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">Custom Needs Assessment</p>
+                          </li>
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Expert Guidance on Vision and Goals
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div
+                class="card bg-slate-300/10 backdrop-blur-xl mt-10 sticky top-12 translate-y-10"
+              >
+                <div class="absolute top-0 right-0 w-12">
+                  <img src="./assets/bookmark.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <div class="flex lg:gap-6">
+                    <div>
+                      <h3
+                        class="hidden lg:block text-3xl font-extrabold bg-gradient-to-br from-blue-300 to-blue-600 bg-clip-text text-transparent"
+                      >
+                        02.
+                      </h3>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                      <div>
+                        <h3 class="card-title font-bold text-3xl">
+                          Design Proposal
+                        </h3>
+                        <p class="text-gray-500 font-medium my-4">
+                          Receive a customized design proposal based on our
+                          consultation. This includes concept sketches, floor
+                          plans, and a detailed project overview to ensure we’re
+                          on the same page.
+                        </p>
+                      </div>
+                      <div class="">
+                        <ul class="flex flex-col gap-3">
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Conceptual Sketches and Floor Plans
+                            </p>
+                          </li>
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Detailed Project Overview
+                            </p>
+                          </li>
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Transparent Cost Estimates
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div
+                class="card bg-slate-200/10 backdrop-blur-xl mt-10 sticky top-16 translate-y-24"
+              >
+                <div class="absolute top-0 right-0 w-12">
+                  <img src="./assets/bookmark.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <div class="flex lg:gap-6">
+                    <div>
+                      <h3
+                        class="hidden lg:block text-3xl font-extrabold bg-gradient-to-br from-blue-300 to-blue-600 bg-clip-text text-transparent"
+                      >
+                        03.
+                      </h3>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                      <div>
+                        <h3 class="card-title font-bold text-3xl">
+                          Finalization and Planning
+                        </h3>
+                        <p class="text-gray-500 font-medium my-4">
+                          Work with us to refine the design and finalize all
+                          details. We’ll create a comprehensive plan, including
+                          material selections, budget estimates, and a project
+                          timeline.
+                        </p>
+                      </div>
+                      <div class="">
+                        <ul class="flex flex-col gap-3">
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Refined Design and Material Selections
+                            </p>
+                          </li>
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Comprehensive Project Timeline
+                            </p>
+                          </li>
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Budget Finalization and Approval
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div
+                class="card bg-slate-100/10 backdrop-blur-xl mt-10 sticky top-24 translate-y-36"
+              >
+                <div class="absolute top-0 right-0 w-12">
+                  <img src="./assets/bookmark.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <div class="flex lg:gap-6">
+                    <div>
+                      <h3
+                        class="hidden lg:block text-3xl font-extrabold bg-gradient-to-br from-blue-300 to-blue-600 bg-clip-text text-transparent"
+                      >
+                        04.
+                      </h3>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                      <div>
+                        <h3 class="card-title font-bold text-3xl">
+                          Construction and Delivery
+                        </h3>
+                        <p class="text-gray-500 font-medium my-4">
+                          Watch your vision come to life as we manage the
+                          construction process with precision and care. We’ll
+                          keep you updated at every stage and ensure that your
+                          new barn house is completed to your satisfaction.
+                        </p>
+                      </div>
+                      <div class="">
+                        <ul class="flex flex-col gap-3">
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Expert Construction Management
+                            </p>
+                          </li>
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Regular Progress Updates
+                            </p>
+                          </li>
+                          <li class="flex gap-2 items-center">
+                            <img
+                              class="w-10"
+                              src="./assets/success.png"
+                              alt=""
+                            />
+                            <p class="font-semibold">
+                              Quality Assurance and Final Walkthrough
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Article and news -->
       <section class="my-20">
         <div class="container mx-auto">
@@ -480,7 +815,7 @@
                   class="rounded-xl w-full h-full"
                 />
               </figure>
-              <div class="card-body items-start text-left md:px-2">
+              <div class="card-body items-start text-left">
                 <div class="flex items-center gap-4">
                   <div class="flex items-center gap-2">
                     <i class="fa-solid fa-calendar-days"></i>
@@ -516,7 +851,7 @@
                   class="rounded-xl w-full h-full"
                 />
               </figure>
-              <div class="card-body items-start text-left md:px-2">
+              <div class="card-body items-start text-left">
                 <div class="flex items-center gap-4">
                   <div class="flex items-center gap-2">
                     <i class="fa-solid fa-calendar-days"></i>
@@ -552,7 +887,7 @@
                   class="rounded-xl w-full h-full"
                 />
               </figure>
-              <div class="card-body items-start text-left md:px-2">
+              <div class="card-body items-start text-left">
                 <div class="flex items-center gap-4">
                   <div class="flex items-center gap-2">
                     <i class="fa-solid fa-calendar-days"></i>
